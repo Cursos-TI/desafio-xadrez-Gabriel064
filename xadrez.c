@@ -13,6 +13,8 @@ int main() {
 
     int Bispo = 1;
 
+    printf("Bispo: \n");
+
     while (Bispo <= 5)
     {
         printf("%d\n", Bispo);
@@ -21,9 +23,27 @@ int main() {
 
     // Implementação de Movimentação da Torre
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
+    
+    int Torre = 1;
+
+    printf("Torre: \n");
+
+    do{
+
+        printf("%d\n", Torre);
+        Torre++;
+
+    } while (Torre <= 5);
 
     // Implementação de Movimentação da Rainha
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
+
+    printf("Rainha: \n");
+
+    for (int Rainha = 1; Rainha <= 8; Rainha++)
+    {
+        printf("%d\n", Rainha);
+    }
 
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
